@@ -1,0 +1,191 @@
+@charset "UTF-8";
+
+body {
+  font-size: 18px;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-around;
+  background-color: #888;
+  padding: 1.5% 5%;
+}
+
+nav ul li {
+  font-size: 1.2rem;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+#top {
+  height: 600px;
+  width: 100%;
+  background: url(../img/23887047_m.jpg) no-repeat center;
+  background-size: cover;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  position: relative;
+}
+
+.top_wrapper {
+  background: rgba(255, 0, 0, 0);
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  padding-bottom: 0.2%;
+  padding-right: 0.5%;
+}
+
+.top_wrapper h1 {
+  font-size: 1.8rem;
+  color: rgb(255, 255, 255);
+
+}
+
+#service {
+  background-color: rgb(0, 0, 0);
+  padding-bottom: 5%;
+}
+
+.section_title {
+  font-size: 2.5rem;
+  text-align: center;
+  color: #ffffff;
+  padding-top: 5%;
+  margin-bottom: 5%;
+}
+
+.service_wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.service_left img {
+  width: 80%;
+  height: auto;
+}
+
+.service_right h3 {
+  font-size: 1.2rem;
+  color: #ffffff;
+  padding: 2.5% 0;
+}
+
+.service_right p {
+  font-size: 1rem;
+  line-height: 1.5;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+}
+
+#news {
+  background-color: rgb(0, 0, 0);
+  background: url(../img/23558618_m.jpg) no-repeat center;
+  height: 400px;
+}
+
+#news h2 {
+  color: rgb(0, 0, 0);
+}
+
+.news_wrapper {
+  width: 40%;
+  margin: 0 auto;
+  line-height: 1.5;
+  padding-left: 15%;
+  
+}
+
+#price {
+  background-color: rgb(0, 0, 0);
+  padding: 3% 10% 8% 10%;
+}
+
+.price_wrapper table {
+  border: dotted #ffffff 10px;
+  width: 100%;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  margin-top: 1%;
+}
+
+.price_wrapper table tr {
+  border: dotted #ffffff 3px;
+  padding: 2%;
+}
+
+.price_wrapper table th {
+  border: dotted #ffffff 3px;
+  padding: 2%;
+}
+
+.price_wrapper table td {
+  border: dotted #ffffff 3px;
+  padding: 2%;
+}
+
+#contact {
+  background-color: rgb(0, 0, 0);
+  color: rgb(0, 0, 0);
+  background: url(../img/23852018_m.jpg) no-repeat center;
+}
+
+#contact h2 {
+  padding: 5% 0;
+  margin: 0;
+  color: rgb(0, 0, 0);
+}
+
+.form {
+  width: 70%;
+  margin: 0 auto;
+}
+
+label {
+  display: inline-block;
+  line-height: 2;
+  width: 20%;
+}
+
+input,textarea {
+  box-sizing: border-box;
+  border: solid #ddd 1px;
+  width: 60%;
+  margin-bottom: 2.5%;
+}
+
+input {
+  padding: 1%;
+}
+
+textarea {
+  vertical-align: top;
+  height: 200px;
+}
+
+.button {
+  text-align: center;
+}
+
+.button_submit {
+  padding: 1.5% 5%;
+  background-color: #555;
+  margin: 5% 0;
+  font-weight: bold;
+  border: none;
+  color: #fff;
+}
+
+#footer {
+  background-color: #444;
+  padding: 5%;
+  text-align: center;
+  color: #fff;
+}
+
+
